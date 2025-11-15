@@ -243,9 +243,9 @@ $(document).ready(function () {
 function initMap() {
     var location = {lat: 48.38696702107671, lng: 11.590221199245137};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
+        zoom: 9,
         center: location,
-        scrollwheel: false
+        scrollwheel: true
     });
 
     var marker = new google.maps.Marker({
